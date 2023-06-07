@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <img class="logo" src="Shieldify_Logo.png">
+            <div class="box_middle d-flex justify-content-center align-items-center">
+                <div class="login_box d-flex justify-content-center">
+                    <div class="w15"></div>
+                    <div class="w70 d-flex flex-column ">                
+                        <div class="txt_login mouse">LOGIN</div>
+                        <div>
+                            <div class="txt_email mouse">Email</div>
+                            <input class="inputs_e" placeholder="example@shieldify.pro" type="email" required="">
+                        </div>
+                        <div>
+                            <div class="txt_psw mouse">Password</div>
+                            <input class="inputs_p" placeholder="••••••••••" type="password" required>
+                        </div>
+                        <div class="d-flex justify-content-center"><input class="submit_btn" type="submit" value="submit" [disabled]="!login.valid"></div>
+                    </div>
+                    <div class="w15"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

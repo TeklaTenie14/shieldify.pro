@@ -1,0 +1,118 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.mouse{
+    cursor: pointer;
+}
+
+.logo{
+    height: 28px;
+    width: 80%;
+    margin: 15px 0 20px 0;
+}
+
+.menu{
+    width: 20%;
+    height: 100%;
+    background-color: #010D1A;
+}
+
+.center{
+    height: 55%;
+}
+
+.mini_logo{
+    width: 36px;
+    margin-right: 5px;
+}
+
+.mini_logo1{
+    width: 42px;
+    height: 42px;
+    margin-right: 7px;
+}
+
+.wid20{
+    width: 70%;
+}
+
+.bigTXT{
+    font-weight: 250;
+    font-size: 25px;
+    color: white;
+}
+
+.bigTXT1{
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.bigTXT2{
+    font-weight: 300;
+    font-size: 21px;
+    color: white;
+}
+
+#afterclick{
+    display: none;
+}
+
+.down{
+    padding: 10px 0 10px 20px;
+}
+
+.down2{
+    padding: 5px 0 5px 20px;
+}
+
+.headline{
+    font-weight: 500;
+    font-size: 65px;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.bluebox{
+    width: 45%;
+    height: 75%;
+    background-color: #010331;
+    border-radius: 20px;
+    color: white;
+}
+
+.right{
+    width: 80%;
+    height: 100%;
+    background-image: url(bg.png);
+    background-size:100%;
+}
+
+.boxes{
+    height: 45%;
+    width: 50%;
+}
+
+.k{
+    font-weight: 400;
+    font-size: 32px;
+    text-shadow: -1px 1px 4px blue,
+				  1px 1px 4px blue,
+				  0 0 0 blue;
+}
+
+.space{
+    height: 50%;
+}
