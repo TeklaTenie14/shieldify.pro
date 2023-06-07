@@ -81,10 +81,12 @@
 
         <script>
             document.getElementById("account").onclick = function() {
-                if(document.getElementById("afterclick").style.display == "none"){
-                    document.getElementById("afterclick").style.display = "block";
+                if(document.getElementById("afterclick").style.maxHeight == "0px"){
+                    // document.getElementById("afterclick").style.display = "block";
+                    document.getElementById("afterclick").style.maxHeight = `150px`;
                 }else{
-                    document.getElementById("afterclick").style.display = "none";
+                    // document.getElementById("afterclick").style.display = "none";
+                    document.getElementById("afterclick").style.maxHeight = "0px";
                 }
             }
             
