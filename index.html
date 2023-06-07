@@ -36,7 +36,7 @@
                 </div>
                 <div>
                     <div id="afterclick">
-                        <div class="d-flex align-items-center down2 justify-content-center wid20 mouse">
+                        <div class="d-flex align-items-center down2 justify-content-center wid20 mouse" id="login_out">
                             <div><img class="mini_logo" src="logout.png" ></div>
                             <div class="bigTXT">Logout</div>
                         </div>
@@ -86,6 +86,10 @@
                 }else{
                     document.getElementById("afterclick").style.display = "none";
                 }
+            }
+            
+            document.getElementById("login_out").onclick = function() {
+                location.href = 'login.html';
             }
         </script>
     </body>
