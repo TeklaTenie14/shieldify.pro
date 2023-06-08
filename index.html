@@ -29,9 +29,16 @@
                         <div><img class="mini_logo" src="analitycs.png"></div>
                         <div class="bigTXT">Analitycs</div>
                     </div>
-                    <div class="d-flex align-items-center wid20 mouse">
-                        <div><img class="mini_logo" src="security.png"></div>
-                        <div class="bigTXT">Security Rules</div>
+                    <div class="d-flex flex-column align-items-start wid20 mouse">
+                        <div class="d-flex align-items-center" id="rules">
+                            <div><img class="mini_logo" src="security.png"></div>
+                            <div class="bigTXT">Security Rules</div>
+                        </div>
+                        <div class="none d-flex flex-column" id="rulesdowntxt">
+                            <div class="rules_down">WAF</div>
+                            <div class="rules_down">DoS Attack</div>
+                            <div class="rules_down">Auto Pentest</div>
+                        </div>
                     </div>
                 </div>
                 <div>
@@ -82,16 +89,22 @@
         <script>
             document.getElementById("account").onclick = function() {
                 if(document.getElementById("afterclick").style.maxHeight == "0px"){
-                    // document.getElementById("afterclick").style.display = "block";
                     document.getElementById("afterclick").style.maxHeight = `150px`;
                 }else{
-                    // document.getElementById("afterclick").style.display = "none";
                     document.getElementById("afterclick").style.maxHeight = "0px";
                 }
             }
 
+            document.getElementById("rules").onclick = function() {
+                if(document.getElementById("rulesdowntxt").style.maxHeight == "0px"){
+                    document.getElementById("rulesdowntxt").style.maxHeight = `150px`;
+                }else{
+                    document.getElementById("rulesdowntxt").style.maxHeight = "0px";
+                }
+            }
+
             document.getElementById("login_out").onclick = function() {
-                location.href = 'login.html';
+                location.href = 'http://109.172.219.218';
             }
         </script>
     </body>
